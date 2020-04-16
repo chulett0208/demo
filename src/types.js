@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-var element = (
+const element = (
   <div>
     <h1>Types</h1>
     <nav>
