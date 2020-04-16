@@ -8,7 +8,7 @@ const element = (
   <div>
     <h1>Cats</h1>
     <nav>
-      <b>Home &nbsp; Types</b>
+      <b><a href = "index.js"></a>Home &nbsp; <a href = "types.html"></a>Types</b>
     </nav>
   </div>
 );
