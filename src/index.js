@@ -4,7 +4,9 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
-import Demo from './components/demo';
+//import Demo from './components/demo';
+import './types.js';
+
 var element = (
   <div>
     <h1>Cats</h1>
