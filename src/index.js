@@ -4,11 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const element = (
+var element = (
   <div>
     <h1>Cats</h1>
     <nav>
-      <b><a href = "index.js"></a>Home &nbsp; <a href = "types.html"></a>Types</b>
+      <b><a href = "index.js">Home</a> &nbsp; <a href = "types.js">Types</a></b>
     </nav>
   </div>
 );
