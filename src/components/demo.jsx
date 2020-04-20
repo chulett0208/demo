@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+/*import React, { Component } from 'react';
 
 class Demo extends Component {
     state = {  }
@@ -11,4 +11,4 @@ class Demo extends Component {
     }
 }
  
-export default Demo;
+export default Demo;*/

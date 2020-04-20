@@ -1,17 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-import './index.js';
-const element = (
-  <div>
-    <h1>Types</h1>
-    <nav>
-      <b><a href = "index.js">Home</a> &nbsp; <a href = "types.js">Types</a></b>
-    </nav>
-  </div>
-);
+import React from "react";
 
-ReactDOM.render(element, document.getElementById('root'));
-serviceWorker.unregister()
+function types() {
+  return (
+    <div>
+    <h1>Types</h1>
+    </div>
+  );
+}
+
+export default types;
