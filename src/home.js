@@ -1,7 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+//import ColorButton from './ColorButton';
 
-function home(){
+function color(){
+  return(
+      document.getElementById('change').style.color = "blue"
+  );
+}
+
+function Home() {
   return(
     <div>
       <h1>Cats</h1>
@@ -12,8 +19,11 @@ function home(){
           <Link to="/types">Types</Link> &nbsp;
         </b>
       </nav>
+
+      <p id='change'>Change Color</p>
+      <button onClick="color()">Change</button>
     </div>
   );
 }
 
-export default home;
+export default Home;

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-function about()
+function About()
 {
   return (
       <div>
@@ -9,12 +9,12 @@ function about()
         <nav>
         <b>
           <Link to="/">Home</Link> &nbsp;
-          <Link to="/about">About</Link> &nbsp;
-          <Link to="/types">Types</Link> &nbsp;
+          <Link to="/About">About</Link> &nbsp;
+          <Link to="/Types">Types</Link> &nbsp;
         </b>
       </nav>
       </div>
   );
 }
 
-export default about;
+export default About;
