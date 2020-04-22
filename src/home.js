@@ -1,18 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
 import './App.css';
-//import ColorButton from './ColorButton';
+import ColorButton from "./ColorButton";
 
-
-
-function color(){
-  var div = document.getElementById("blueText");
-  return(
-  div.setAttribute("onclick", "blueText")
-  );
-}
-
+const colors=["red", "blue", "green"];
 function Home() {
+  const[colorIndex, setColorIndex]=useState(0);
   return(
     <div>
       <h1>Cats</h1>
@@ -24,7 +17,7 @@ function Home() {
         </b>
       </nav>
       <p>Change Color</p>
-      <button onclick = "blueText">Change</button>
+  <button onClick={()=> setColorIndex(colorIndex + 1)}>Change</button>
     </div>
   );
 }

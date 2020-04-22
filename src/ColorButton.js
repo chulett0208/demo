@@ -1,12 +1,10 @@
-/*import React from 'react';
-import {Route, Link} from 'react-router-dom';
-import ColorButton from './ColorButton.css';
+/*import React, {useState} from 'react';
 
-function color(){
-        return(
-            var div = document.getElementById("blueDiv");
-        div.setAttribute("id", "blueDiv") || div.setAttribute("id", "redDiv") 
-        ||  div.setAttribute("id", "yellowDiv")
-        );
-}
-export default color;*/
+const colors=["red", "blue", "green"];
+
+export default function color(){
+    const[colorIndex, setColorIndex] = useState(0);
+    return(
+        <button onClick={()=> colors.setColorIndex(colorIndex + 1)} >Change</button>
+    );
+}*/
