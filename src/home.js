@@ -1,10 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import './App.css';
 //import ColorButton from './ColorButton';
 
+
+
 function color(){
+  var div = document.getElementById("blueText");
   return(
-      document.getElementById('change').style.color = "blue"
+  div.setAttribute("onclick", "blueText")
   );
 }
 
@@ -19,9 +23,8 @@ function Home() {
           <Link to="/types">Types</Link> &nbsp;
         </b>
       </nav>
-
-      <p id='change'>Change Color</p>
-      <button onClick="color()">Change</button>
+      <p>Change Color</p>
+      <button onclick = "blueText">Change</button>
     </div>
   );
 }
