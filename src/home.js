@@ -5,7 +5,11 @@ import ColorButton from "./ColorButton";
 
 const colors=["red", "blue", "green"];
 function Home() {
-  const[colorIndex, setColorIndex]=useState(colors[0]);
+  const[colorIndex, setColorIndex]=useState(0);
+  function getColor()
+  {
+    return colors[colorIndex % 3]
+  }
   return(
     <div>
       <h1>Cats</h1>
@@ -16,8 +20,7 @@ function Home() {
           <Link to="/types">Types</Link> &nbsp;
         </b>
       </nav>
-      <p>Change Color</p>
-  <button onClick={()=>setColorIndex(colorIndex + 1)}>Change</button>
+    <ColorButton />
     </div>
   );
 }
