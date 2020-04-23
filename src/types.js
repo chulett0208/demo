@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import ColorButton from './ColorButton';
 
 function Types() {
   return (
@@ -12,6 +13,10 @@ function Types() {
           <Link to="/Types">Types</Link> &nbsp;
         </b>
       </nav>
+      <br />
+      <ColorButton />
+      <br />
+      <ColorButton />
     </div>
   );
 }

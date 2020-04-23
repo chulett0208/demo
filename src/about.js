@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import ColorButton from './ColorButton';
 
 function About()
 {
@@ -13,6 +14,8 @@ function About()
           <Link to="/Types">Types</Link> &nbsp;
         </b>
       </nav>
+      <br />
+      <ColorButton />
       </div>
   );
 }

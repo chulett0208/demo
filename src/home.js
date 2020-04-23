@@ -1,15 +1,11 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import './App.css';
 import ColorButton from "./ColorButton";
+import navBar from "./navBar";
 
 const colors=["red", "blue", "green"];
 function Home() {
-  const[colorIndex, setColorIndex]=useState(0);
-  function getColor()
-  {
-    return colors[colorIndex % 3]
-  }
   return(
     <div>
       <h1>Cats</h1>
@@ -20,6 +16,7 @@ function Home() {
           <Link to="/types">Types</Link> &nbsp;
         </b>
       </nav>
+      <br />
     <ColorButton />
     </div>
   );
