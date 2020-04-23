@@ -2,7 +2,6 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import './App.css';
 import ColorButton from "./ColorButton";
-import navBar from "./navBar";
 
 const colors=["red", "blue", "green"];
 function Home() {
