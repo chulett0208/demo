@@ -10,11 +10,11 @@ function ColorButton() {
   {
     return colors[colorIndex % 3];
   }
-  
+
   return(
     <div>
         <button style={{color: getColor()}}
-        onClick={()=>setColorIndex(colorIndex + 1)}>Change</button>
+        onClick={()=>setColorIndex(colorIndex+1)}>Change</button>
     </div>
   );
 }
