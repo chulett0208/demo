@@ -3,8 +3,7 @@ import {Link} from 'react-router-dom';
 import './App.css';
 import ColorButton from "./ColorButton";
 
-const colors=["red", "blue", "green"];
-function Home() {
+function home() {
   return(
     <div>
       <h1>Cats</h1>
@@ -21,4 +20,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default home;

@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import ColorButton from './ColorButton';
 
-function About()
+function about()
 {
   return (
       <div>
@@ -10,8 +10,8 @@ function About()
         <nav>
         <b>
           <Link to="/">Home</Link> &nbsp;
-          <Link to="/About">About</Link> &nbsp;
-          <Link to="/Types">Types</Link> &nbsp;
+          <Link to="/about">About</Link> &nbsp;
+          <Link to="/types">Types</Link> &nbsp;
         </b>
       </nav>
       <br />
@@ -20,4 +20,4 @@ function About()
   );
 }
 
-export default About;
+export default about;
