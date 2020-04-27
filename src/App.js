@@ -3,7 +3,6 @@ import './App.css';
 import Home from "./home";
 import About from "./about";
 import Types from "./types";
-import NavBar from "./navBar";
 import {Route} from "react-router-dom";
 
 function App() {
