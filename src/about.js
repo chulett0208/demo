@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import ColorButton from './ColorButton';
 import NavBar from './navBar';
 
