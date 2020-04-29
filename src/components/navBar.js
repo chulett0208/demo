@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 function navBar()
 {
     return(
+        
         <div>
             <nav>
                 <b>

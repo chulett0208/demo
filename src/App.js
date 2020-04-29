@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import Home from "./home";
-import About from "./about";
-import Types from "./types";
+import Home from "./components/home";
+import About from "./components/about";
+import Types from "./components/types";
 import {Route} from "react-router-dom";
 
 function App() {
