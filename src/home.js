@@ -5,10 +5,10 @@ import NavBar from './navBar';
 function home() {
   return(
     <div>
-      <h1 class="border title">Cats</h1>
         <NavBar />
         <br />
         <ColorButton />
+        <p>home</p>
     </div>
   );
 }

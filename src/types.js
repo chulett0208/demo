@@ -5,12 +5,12 @@ import NavBar from './navBar';
 function types() {
   return (
     <div>
-    <h1>Types</h1>
       <NavBar />
       <br />
       <ColorButton />
       <br />
       <ColorButton />
+      <p>types</p>
     </div>
   );
 }
