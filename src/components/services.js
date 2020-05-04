@@ -2,16 +2,16 @@ import React from 'react';
 import ColorButton from './ColorButton';
 import NavBar from '../navBar';
 
-function blog() {
+function services() {
   return (
     <div>
       <NavBar />
       <br />
       <ColorButton />
       <br />
-      <p>Blog</p>
+      <p>Services</p>
     </div>
   );
 }
 
-export default blog;
+export default services;

@@ -2,16 +2,16 @@ import React from 'react';
 import ColorButton from './ColorButton';
 import NavBar from '../navBar';
 
-function home() {
+function portfolio() {
   return(
     <div>
         <NavBar />
         <br />
         <ColorButton />
         <br />
-        <p>Home</p>
+        <p>Portfolio</p>
     </div>
   );
 }
 
-export default home;
+export default portfolio;

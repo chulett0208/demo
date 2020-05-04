@@ -2,16 +2,15 @@ import React from 'react';
 import ColorButton from './ColorButton';
 import NavBar from '../navBar';
 
-function about() {
+function dataAnalytics() {
   return (
       <div>
           <NavBar />
           <br />
           <ColorButton />
-          <br />
-          <p>About</p>
+          <p>Data Analytics</p>
       </div>
   );
 }
 
-export default about;
+export default dataAnalytics;
