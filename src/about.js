@@ -5,7 +5,7 @@ import NavBar from './navBar';
 function about() {
   return (
       <div>
-        <h1>About</h1>
+        <h1 class="border title">About</h1>
           <NavBar />
           <br />
           <ColorButton />

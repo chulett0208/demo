@@ -5,7 +5,7 @@ import './css/bootstrap.min.css';
 function navBar() {
     return(
         <div>
-            <nav style ={{backgroundColor: "#292929"}}>
+            <nav class="text-light" style ={{backgroundColor: "#292929"}}>
                 <b>
                     <Link to="/">Home</Link> &nbsp;
                     <Link to="/about">About</Link> &nbsp;

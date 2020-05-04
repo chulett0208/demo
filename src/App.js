@@ -10,7 +10,7 @@ import './css/bootstrap.min.css';
 function App() {
   return (
     <React.Fragment>
-        <div className="App" class="text-center">
+        <div className="App" class="container-fluid">
           <Route exact path = "/" component={Home}/>
           <Route exact path = "/about" component={About}/>
           <Route exact path = "/types" component={Types}/>
