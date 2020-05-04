@@ -4,13 +4,13 @@ import Home from "./home";
 import About from "./about";
 import Types from "./types";
 import { Route } from "react-router-dom";
-//import { Layout } from './components/Layout';
+import './css/bootstrap.min.css';
 
 
 function App() {
   return (
     <React.Fragment>
-        <div className="App">
+        <div className="App" class="text-center">
           <Route exact path = "/" component={Home}/>
           <Route exact path = "/about" component={About}/>
           <Route exact path = "/types" component={Types}/>
