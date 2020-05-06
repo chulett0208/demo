@@ -12,7 +12,11 @@ function content() {
                         <img class="img-circle" 
                         src="https://bnlconsulting.com/images/intro/Data-Analytics-Icon.e044888c.png" alt="" />
                         <h3>Data Analytics</h3>
-                        <p>A paragraph</p>
+                        <p>There are questions that need to <br /> be answered to unlock your data's <br /> value. 
+                           First, how do you gather high-quality data? Then how do you <br /> organize it? 
+                           And most importantly, <br /> how do you use it to reach <br /> your goals? We utilize 
+                           industry-<br />leading tools like SAS and R to find precisely the right data that 
+                           tells <br /> you where you are and how <br /> to get where you want to go.</p>
                         <div class="spacer-15" />
                         <p>
                             <button type="button" class="btn btn-secondary btn-sm">
@@ -25,7 +29,11 @@ function content() {
                         <img class="img-circle" 
                         src="https://bnlconsulting.com/images/intro/Data-Visualization-Icon.bdda0ef9.png" alt="" />
                         <h3>Data Visualization</h3>
-                        <p>A paragraph</p>
+                        <p>When is the last time you took <br /> a good look at your organization? <br /> Chances are, 
+                            you never have—<br />not the way we can present it. We <br /> extract the most meaningful <br /> 
+                            data and present it in intuitive <br /> visual representations like charts <br /> and graphs, 
+                            so you have up-to-the-<br />minute information at a glance. <br /> With our visualizations 
+                            you can <br /> make smarter decisions faster.</p>
                         <div class="spacer-15" />
                         <p>
                             <button type="button" class="btn btn-secondary btn-sm">
