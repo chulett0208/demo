@@ -4,7 +4,12 @@ h1 {
   background-color: darkblue;
 }
 
-
+.img-circle {
+  border-radius: 50%;
+}
+.img-rounded {
+  border-radius: 30px;
+}
 
 body {
   margin: 0;

@@ -18,14 +18,14 @@ function navBar() {
                     </li>
 
                     <li>
-                        <a  href="services" class="nav-link" style={{color: "#808080"}}>Services&nbsp;</a>
+                        <a href="services" class="nav-link" style={{color: "#808080"}}>Services&nbsp;</a>
 
                     </li>
                     <li><a href="about" class="nav-link" style={{color: "#808080"}}>About</a></li>
                     <li><a href="blog" class="nav-link" style={{color: "#808080"}}>Blog</a></li>
                     <li><a href="contact" class="nav-link" style={{color: "#808080"}}>Contact</a></li>
                 </ul>
-                </div>
+            </div>
         </nav>
     );
 }

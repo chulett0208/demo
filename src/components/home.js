@@ -1,15 +1,14 @@
 import React from 'react';
-import ColorButton from './ColorButton';
 import NavBar from '../navBar';
+import Content from './content';
 
 function home() {
   return(
     <div>
         <NavBar />
         <br />
-        <ColorButton />
         <br />
-        <p>Home</p>
+        <Content />
     </div>
   );
 }
