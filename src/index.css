@@ -6,9 +6,11 @@ h1 {
 
 .img-circle {
   border-radius: 50%;
+  width: 200px;
 }
 .img-rounded {
-  border-radius: 30px;
+  border-radius: 6px;
+  width: 200px;
 }
 
 body {
