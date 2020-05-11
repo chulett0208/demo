@@ -2,7 +2,7 @@ import React from 'react';
 
 function navBar() {
     return(
-        <nav class="navbar navbar-inverse" style={{backgroundColor: "#292929"}}>
+        <nav class="navbar navbar-custom fixed-top top-nav-collapse" style={{backgroundColor: "#292929"}}>
             <div class="container-fluid">
                 <div class="navbar-header">
                     <img src="https://bnlconsulting.com/bnl.jpg" width="130" 

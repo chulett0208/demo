@@ -19,7 +19,7 @@ function App() {
           <Route exact path = "/about" component={About} />
           <Route exact path = "/types" component={Types} />
           <Route exact path = "/services" component={Services} />
-          <Route exact path = "/blog" component={Blog}/>
+          <Route exact path = "/blog" component={Blog} />
           <Route exact path = "/contact" component={Contact} />
         </div>
     </React.Fragment>
