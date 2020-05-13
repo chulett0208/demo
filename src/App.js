@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Home from "./components/home";
+import Home from './components/home';
 import Portfolio from "./components/portfolio";
 import About from "./components/about";
 import Types from "./components/types";

@@ -1,37 +1,35 @@
 import React from 'react';
 import '../index.css';
-
 function content() {
     return(
         <div>
             <br />
             <br />
             <br />
-
             <div class="container">
 
                 <div class="row">
-
+             
                     <div class="col-md-4">
                         <img class="img-circle" 
                         src="https://bnlconsulting.com/images/intro/Data-Analytics-Icon.e044888c.png" alt="" />
                         <h3>Data Analytics</h3>
                         <p>
-                           There are questions that need to be answered to unlock your data's value. 
-                           First, how do you gather high-quality data? Then how do you organize it? 
-                           And most importantly, how do you use it to reach your goals? We utilize 
-                           industry-leading tools like SAS and R to find precisely the right data that 
-                           tells you where you are and how to get where you want to go.
+                            There are questions that need to be answered to unlock your data's value. 
+                            First, how do you gather high-quality data? Then how do you organize it? 
+                            And most importantly, how do you use it to reach your goals? We utilize 
+                            industry-leading tools like SAS and R to find precisely the right data that 
+                            tells you where you are and how to get where you want to go.
                         </p>
-                        <div class="spacer-15" />
-                        <div class="spacer-15" />
                         <p>
-                            <button type="button" class="btn btn-secondary btn-sm">
-                                Analytics Services
+                            <button class="button-detail">
+                                Analytics Services &nbsp;
+                                <i class="fa fa-caret-right"></i>
                             </button>
                         </p>
+                        
                     </div>
-
+                
                     <div class="col-md-4">
                         <img class="img-circle" 
                         src="https://bnlconsulting.com/images/intro/Data-Visualization-Icon.bdda0ef9.png" alt="" />
@@ -43,10 +41,10 @@ function content() {
                             so you have up-to-the-minute information at a glance. With our visualizations 
                             you can make smarter decisions faster.
                         </p>
-                        <div class="spacer-15" />
                         <p>
-                            <button type="button" class="btn btn-secondary btn-sm">
-                                Visualization strategies
+                            <button class="button-detail">
+                                Visualization strategies &nbsp;
+                                <i class="fa fa-caret-right"></i>
                             </button>
                         </p>
                     </div>
@@ -61,10 +59,10 @@ function content() {
                             reporting tools, and enterprise software systems, such as SAS, to make sure 
                             everyone has everything they need all the time.
                         </p>
-                        <div class="spacer-15" />
                         <p>
-                            <button type="button" class="btn btn-secondary btn-sm">
-                                Integration solutions
+                            <button class="button-detail">
+                                Integration solutions &nbsp;
+                                <i class="fa fa-caret-right"></i>
                             </button>
                         </p>
                     </div>
@@ -81,46 +79,56 @@ function content() {
             <br />
             <br />
 
-            <div class="container">
-                <div class="row">
-                    
-                    <div class="col-md-3">
-                        <img class="img-rounded" src="https://bnlconsulting.com/images/intro/Capitol-Icon.9fe0c40c.png" alt="Public Sector" />
+            <div class="featurette">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-md-push-9">
+                            <img class="img-rounded" src="https://bnlconsulting.com/images/intro/Capitol-Icon.9fe0c40c.png" alt="Public Sector" />
+                        </div>
+                        <div class="col-md-9">
+                            <h3>Public Sector</h3>
+                            <p>A paragraph</p>
+                        </div>
                     </div>
-                    <div class="col-md-9">
-                        <h3>Public Sector</h3>
-                        <p>A paragraph</p>
+                </div>    
+            </div>
+
+            <br />
+            <br />
+            <br />
+
+            <div class="featurette">
+                <div class="container">    
+                    <div class="row">
+                        <div class="col-md-3 offset-md-9">
+                            <img class="img-rounded" src="https://bnlconsulting.com/images/intro/Pulse-Icon.6d11c744.png" alt="Health &amp; Medical" />
+                        </div>
+                        <div class="col-md-9">
+                            <h3>Health &amp; Medical</h3>
+                            <p>A paragraph</p>
+                        </div>
                     </div>
                 </div>
+            </div>
 
-                <br />
-                <br />
-                <br />
 
-                <div class="row">
-                    <div class="col-md-9">
-                        <h3>Health &amp; Medical</h3>
-                        <p>A paragraph</p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="featurette">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="img-rounded" src="https://bnlconsulting.com/images/intro/Play-Icon.9955321b.png" alt="Sports &amp; Entertainment" />
+                        </div>
+                        <div class="col-md-9">
+                            <h3>Sports &amp; Entertainment</h3>
+                            <p>A paragraph</p>
+                        </div>
                     </div>
-                    <div class="col-md-3">
-                        <img class="img-rounded" src="https://bnlconsulting.com/images/intro/Pulse-Icon.6d11c744.png" alt="Health &amp; Medical" />
-                    </div>
-                </div>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-
-                <div class="row">
-                    <div class="col-md-3">
-                        <img class="img-rounded" src="https://bnlconsulting.com/images/intro/Play-Icon.9955321b.png" alt="Sports &amp; Entertainment" />
-                    </div>
-                    <div class="col-md-9">
-                        <h3>Sports &amp; Entertainment</h3>
-                        <p>A paragraph</p>
-                    </div>
-                </div>
+                </div>    
             </div>
         </div>
     );
