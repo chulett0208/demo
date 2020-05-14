@@ -1,35 +1,72 @@
-h1 {
-  text-align: center; 
-  color: lightgrey;
-  background-color: darkblue;
+/* HTML Doc */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.center {
-  text-align: center;
+body {
+  font-family: Lato,sans-serif;
+  background: white;
+  color: black;
+  font-size: 15px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
 }
 
 div {
   display: block;
 }
-div.featurette:nth-of-type(odd) {
-    background-color: #f8f8f8;
+
+
+/* Nav */
+.main-nav {
+  display: flex;
+  background-color: #292929;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 20px 0;
+  font-size: 13px;
 }
-.featurette {
-  padding: 40px;
+.main-nav img {
+  width: 100px;
+  margin-left: 130px;
+}
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+}
+.main-nav ul.main-menu {
+  flex: 1;
+}
+.main-nav a {
+  font-size: 15px;
+  color: #808080;
+  text-align: bottom;
+  margin-top: 30px;
+}
+.main-nav a:hover {
+  color: #e0e4e4;
+}
+.main-nav i {
+  color: #808080;
 }
 
-hr {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
+
+
+/* Home 1 */
+.home1 h3 {
+  color: rgb(102, 102, 102);
 }
-
-
-
+.home1 p {
+  color: rgb(102, 102, 102);
+}
 .button-detail {
   background-color: transparent;
   border-color: lightgrey;
@@ -42,38 +79,34 @@ hr {
   box-shadow: none;
 }
 .button-detail:hover {
-background-color: lightgrey;
+  background-color: lightgrey;
 }
 .button-detail:hover i {
   margin-left: 2px;
 }
 
 
-.container {
-  width: 90%;
-  max-width: 1100px;
-  margin: auto;
+/*Home 2*/
+div.featurette:nth-of-type(odd) {
+    background-color: #f8f8f8;
+}
+div.featurette:nth-of-type(even) {
+    background-color: #f4f4f4;
+}
+.featurette {
+  padding: 50px;
 }
 
-.spacer-15 {
-  width: 1px;
-  height: 15px;
-  display: block;
-  clear: both;
+.home2 h3 {
+  align-items: left;
+  text-align: left;
+  margin-top: 10px;
+  color: rgb(102, 102, 102);
 }
-
-h3 {
-  text-align: 10px;
+.home2 p {
+  text-align: left;
+  color: rgb(102, 102, 102); 
 }
-
-body {
-  font-family: Lato,sans-serif;
-}
-
-p {
-  margin: 0 auto;
-}
-
 .img-circle {
   border-radius: 50%;
   width: 190px;
@@ -81,4 +114,9 @@ p {
 .img-rounded {
   border-radius: 6px;
   width: 210px;
+}
+
+
+@media(max-width: 700px) {
+  
 }
