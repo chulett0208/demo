@@ -13,10 +13,11 @@ function content() {
                             <img class="img-circle" 
                             src="https://bnlconsulting.com/images/intro/Data-Analytics-Icon.e044888c.png" alt="" />
                             <h3>Data Analytics</h3>
+
                             <p>
                                 There are questions that need to be answered to unlock your data's value. 
-                                First, how do you gather high-quality data? Then how do you organize it? 
-                                And most importantly, how do you use it to reach your goals? We utilize 
+                                First, how do you gather high-quality data?  Then how do you organize it? 
+                                And most importantly, how do you use it to reach your goals?  We utilize 
                                 industry-leading tools like SAS and R to find precisely the right data that 
                                 tells you where you are and how to get where you want to go.
                             </p>
@@ -86,7 +87,8 @@ function content() {
 
                             <div class="col-md-9">
                                 <h3>Public Sector</h3>
-                                <p>BNL Consulting is proud to be one of the largest professional 
+                                <p>
+                                   BNL Consulting is proud to be one of the largest professional 
                                    services providers to SAS in the public sector, and we cherish 
                                    the relationships we have cultivated with our federal partners. 
                                    So whether you require modernization of your SAS systems and 
