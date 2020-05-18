@@ -7,9 +7,11 @@
 
 .container {
   width: 90%;
+  max-height: 500px; 
   max-width: 1100px;
   margin: auto;
 }
+
 
 div.featurette:nth-of-type(even) {
   background-color: #f8f8f8;
@@ -60,68 +62,16 @@ div.featurette:nth-of-type(odd) {
 .main-nav i {
   color: #808080;
 }
-nav a {
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
-  font-size: 18px;
-}
-
-nav .navbar-toggle {
-  margin: 13px 15px 13px 0;
-}
-
-.navbar-brand {
-  font-size: 30px;
-}
-
-
-
-nav.navbar.shrink {
-  min-height: 35px;
-}
-
-nav.shrink a {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-  font-size: 15px;
-}
-
-nav.shrink .navbar-brand {
-  font-size: 25px;
-}
-
-nav.shrink .navbar-toggle {
-  padding: 4px 5px;
-  margin: 8px 15px 8px 0;
-}
-
-
-
-nav.navbar.shrink {
-  min-height: 35px;
-}
-
-nav.shrink a {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-  font-size: 15px;
-}
-
-nav.shrink .navbar-brand {
-  font-size: 25px;
-}
-
-nav.shrink .navbar-toggle {
-  padding: 4px 5px;
-  margin: 8px 15px 8px 0;
-}
 
 
 /* Home 1 */
-.home1 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+.container1 {
+  align-items: center;
+  width: 80%;
+}
+.home1 .col {
+  max-height: 450px;
+  max-width: 300px;
 }
 .home1 .img-circle {
   border-radius: 50%;
@@ -134,6 +84,7 @@ nav.shrink .navbar-toggle {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   font-size: 22px;
+  text-emphasis: wrap;
 }
 .home1 p {
   text-align: center;
@@ -141,6 +92,7 @@ nav.shrink .navbar-toggle {
   font-family: 'Lato', sans-serif;
   font-size: 17px;
   word-wrap: break-word;
+  text-emphasis: wrap;
 }
 .button-detail {
   background-color: transparent;
@@ -162,11 +114,7 @@ nav.shrink .navbar-toggle {
 
 
 /* Home 2 */
-.home2 {
-  display: grid;
-  grid-template-columns: 20% 80%;
-}
-.home2 .img-rounded {
+.img-rounded {
   padding: 10px;
   border-radius: 6px;
   width: 210px;
@@ -189,38 +137,11 @@ nav.shrink .navbar-toggle {
   color: rgb(102, 102, 102);
 }
 
-/*  Home 3 */
-.home3 {
-  display: grid;
-  grid-template-columns: 80% 20%;
-}
-.home3 .img-rounded {
-  padding: 10px;
-  border-radius: 6px;
-  width: 210px;
-}
-.home3 h3 {
-  text-align: left;
-  margin-right: 50px;
-  font-size: 25px;
-  font-weight: 600;
-  margin-top: 10px;
-  font-family: 'Lato', sans-serif;
-  color: rgb(102, 102, 102);
-} 
-.home3 p {
-  text-align: left;
-  margin-right: 50px;
-  font-size: 17px;
-  margin-top: 10px;
-  font-family: 'Lato', sans-serif;
-  color: rgb(102, 102, 102);
-}
-
 
 
 @media(max-width: 992px) {
   .home1 {
+    display: grid;
     grid-template-columns: 1fr;
   }
   .home2 {

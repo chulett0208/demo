@@ -1,13 +1,13 @@
 import React from 'react';
 import './index.css';
 function navBar() {
-    {/*(window).scroll(function() {
+    /*(window).scroll(function() {
   if ((document).scrollTop() > 50) {
     ('nav').addClass('shrink');
   } else {
     ('nav').removeClass('shrink');
   }
-});*/}
+});*/
     return(
         <div>
         <div class="menu-btn">
