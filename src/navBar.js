@@ -1,7 +1,19 @@
 import React from 'react';
-
+import './index.css';
 function navBar() {
+    /*(window).scroll(function() {
+  if ((document).scrollTop() > 50) {
+    ('nav').addClass('shrink');
+  } else {
+    ('nav').removeClass('shrink');
+  }
+});*/
     return(
+        <div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+        
         <nav class="main-nav fixed-top">
             
             <div class="navbar-header">
@@ -25,7 +37,9 @@ function navBar() {
                     <li><a href="contact" class="nav-link">CONTACT</a></li>
                 </ul>
             </div>
+            
         </nav>
+        </div>
     );
 }
 export default navBar;
