@@ -28,12 +28,16 @@ div.featurette:nth-of-type(odd) {
   background-color: #292929;
   align-items: center;
   justify-content: space-between;
-  height: 60px;
-  padding: 20px 0;
 }
 .main-nav img {
   width: 100px;
   margin-left: 130px;
+}
+.main-btn{
+  color: #808080;
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
 }
 .main-nav ul {
   display: flex;
@@ -56,11 +60,60 @@ div.featurette:nth-of-type(odd) {
 .main-nav i {
   color: #808080;
 }
-.spacer-30 {
-    width: 1px;
-    height: 30px;
-    display: block;
-    clear: both;
+nav a {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  font-size: 18px;
+}
+
+nav .navbar-toggle {
+  margin: 13px 15px 13px 0;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+
+
+nav.navbar.shrink {
+  min-height: 35px;
+}
+
+nav.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+}
+
+nav.shrink .navbar-brand {
+  font-size: 25px;
+}
+
+nav.shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
+}
+
+
+
+nav.navbar.shrink {
+  min-height: 35px;
+}
+
+nav.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+}
+
+nav.shrink .navbar-brand {
+  font-size: 25px;
+}
+
+nav.shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
 }
 
 
