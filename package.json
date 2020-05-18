@@ -13,24 +13,67 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1"
   },
+  "devDependencies": {
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.15.1",
+    "enzyme-to-json": "3.4.3",
+    "eslint-plugin-react": "^7.17.0",
+    "jest-environment-enzyme": "7.1.1",
+    "jest-enzyme": "7.1.1",
+    "jest-junit": "8.0.0",
+    "jest-localstorage-mock": "2.4.0",
+    "nock": "11.4.0",
+    "react-test-renderer": "16.10.2",
+    "redux-mock-store": "1.5.3"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test --silent --coverage --watchAll=false"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/index.js",
+      "!src/setupTests.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 50,
+        "functions": 50,
+        "lines": 50,
+        "statements": 50
+      }
+    },
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text",
+      "clover"
+    ]
+  },
+  "jest-junit": {
+    "suiteName": "jest tests",
+    "outputDirectory": "./output",
+    "outputName": "./junit.xml"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=0.8",
+    "npm": ">=6.0"
   },
   "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "react-app"
     ]
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "ie 11",
+    "not ie <= 10",
+    "not op_mini all"
+  ]
 }
