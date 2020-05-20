@@ -1,6 +1,6 @@
 import React from 'react';
 import ColorButton from '../ColorButton/ColorButton';
-import NavBar from '../../navBar';
+import NavBar from '../Navbar/navBar';
 
 function services() {
   return (

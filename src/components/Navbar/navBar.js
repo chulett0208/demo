@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css';
+import '../../index.css';
 function navBar() {
     /*(window).scroll(function() {
   if ((document).scrollTop() > 50) {
