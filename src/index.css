@@ -1,10 +1,4 @@
 /* HTML Doc */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 
 div.featurette:nth-of-type(even) {
   background-color: #f8f8f8;
@@ -109,6 +103,7 @@ div.featurette:nth-of-type(odd) {
 
 /* Home 2 */
 .img-rounded {
+  margin-right: 30px;
   border-radius: 6px;
   width: 210px;
 }
@@ -136,9 +131,8 @@ div.featurette:nth-of-type(odd) {
 
 
 @media(max-width: 992px) {
-  .home1 {
-    display: grid;
-    grid-template-columns: 1fr;
+  .img-circle {
+    width: 90px;
   }
   .home2 {
     grid-template-columns: 1fr;

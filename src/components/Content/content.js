@@ -33,7 +33,7 @@ function content() {
                         </div>
 
                         <div className="col-md-4">
-                           <img class="img-circle" 
+                           <img className="img-circle" 
                            src="https://bnlconsulting.com/images/intro/Data-Visualization-Icon.bdda0ef9.png" alt="" />
                            <h3>Data Visualization</h3>
                            <p>
@@ -44,9 +44,9 @@ function content() {
                                you can make smarter decisions faster.
                            </p>
                            <p>
-                               <button class="button-detail">
+                               <button className="button-detail">
                                    Visualization strategies &nbsp;
-                                   <i class="fa fa-caret-right"></i>
+                                   <i className="fa fa-caret-right"></i>
                                </button>
                            </p>
                         </div>
@@ -62,7 +62,7 @@ function content() {
                                 everyone has everything they need all the time.
                             </p>
                             <p>
-                                <button class="button-detail">
+                                <button className="button-detail">
                                     Integration solutions &nbsp;
                                     <i className="fa fa-caret-right"></i>
                                 </button>
