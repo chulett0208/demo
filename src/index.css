@@ -10,7 +10,7 @@ div.featurette:nth-of-type(odd) {
   background-color: #f4f4f4;
 }
 .featurette {
-  padding: 50px;
+  padding: 15px;
 }
 
 /* Nav */
@@ -110,9 +110,10 @@ div.featurette:nth-of-type(odd) {
   border-radius: 6px;
   width: 210px;
 }
+
 .container2 {
-  align-items: center;
-  max-width: 75%;
+  /*align-items: center;*/
+  max-width: 80%;
   margin: auto;
 }
 .home2 h3 {

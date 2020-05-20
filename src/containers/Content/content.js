@@ -12,7 +12,7 @@ function content() {
 
                     <div className="home1">
                         <div className="row">
-                            <div className="col-md-4 col-sm-12 col-xs-12">
+                            <div className="col-md-4">
                                 <img className="img-circle" 
                                 src="https://bnlconsulting.com/images/intro/Data-Analytics-Icon.e044888c.png" alt="" />
 
@@ -91,11 +91,11 @@ function content() {
                     <div className="home2">
 
                         <div className="row">
-
-                            <div className="col-md-3">
+                            
+                            <div className="col-md-3 order-md-1">
                                 <img className="img-rounded" src="https://bnlconsulting.com/images/intro/Capitol-Icon.9fe0c40c.png" alt="Public Sector" />
                             </div>
-                            <div className="col-md-9">
+                            <div className="col-md-9 order-md-2">
                                 <h3>Public Sector</h3>
                                 <p>
                                     BNL Consulting is proud to be one of the largest professional 
