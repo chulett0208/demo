@@ -1,5 +1,7 @@
 /* HTML Doc */
-
+* {
+  box-sizing: border-box;
+}
 div.featurette:nth-of-type(even) {
   background-color: #f8f8f8;
 }
@@ -103,6 +105,7 @@ div.featurette:nth-of-type(odd) {
 
 /* Home 2 */
 .img-rounded {
+  align-items: left;
   margin-right: 30px;
   border-radius: 6px;
   width: 210px;
@@ -131,6 +134,9 @@ div.featurette:nth-of-type(odd) {
 
 
 @media(max-width: 992px) {
+  .col-md-4 {
+    width: 33.33333333333%;
+  }
   .img-circle {
     width: 90px;
   }

@@ -63,6 +63,8 @@
     "npm": ">=6.0"
   },
   "eslintConfig": {
+    "pretest": "npm run lint",
+    "lint": "eslint src/ --max-warnings=0",
     "extends": [
       "eslint:recommended",
       "plugin:react/recommended",
