@@ -5,13 +5,6 @@
   padding: 0;
 }
 
-.container {
-  width: 90%;
-  max-height: 500px; 
-  max-width: 1100px;
-  margin: auto;
-}
-
 
 div.featurette:nth-of-type(even) {
   background-color: #f8f8f8;
@@ -66,8 +59,8 @@ div.featurette:nth-of-type(odd) {
 
 /* Home 1 */
 .container1 {
-  align-items: center;
-  width: 80%;
+  margin: auto;
+  max-width: 77%;
 }
 .home1 .col {
   max-height: 450px;
@@ -103,6 +96,7 @@ div.featurette:nth-of-type(odd) {
   padding-left: 7px;
   padding-top: 2px;
   padding-bottom: 2px;
+  margin-bottom: 2em;
   box-shadow: none;
 }
 .button-detail:hover {
@@ -115,13 +109,16 @@ div.featurette:nth-of-type(odd) {
 
 /* Home 2 */
 .img-rounded {
-  padding: 10px;
   border-radius: 6px;
   width: 210px;
 }
+.container2 {
+  align-items: center;
+  max-width: 75%;
+  margin: auto;
+}
 .home2 h3 {
   text-align: left;
-  margin-left: 50px;
   font-size: 25px;
   font-weight: 600;
   margin-top: 10px;
@@ -130,7 +127,6 @@ div.featurette:nth-of-type(odd) {
 } 
 .home2 p {
   text-align: left;
-  margin-left: 50px;
   font-size: 17px;
   margin-top: 10px;
   font-family: 'Lato', sans-serif;
