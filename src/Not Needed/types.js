@@ -1,5 +1,5 @@
-import React from 'react';
-import ColorButton from './ColorButton';
+/*import React from 'react';
+import ColorButton from '../components/ColorButton';
 import NavBar from '../navBar';
 
 function types() {
@@ -15,4 +15,4 @@ function types() {
   );
 }
 
-export default types;
+export default types;*/

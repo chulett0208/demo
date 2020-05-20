@@ -1,9 +1,9 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import Blog from './blog';
+import Content from './content';
 
-describe('Blog page', () => {
+describe('Content page', () => {
     it('should render without crashing', () => {
-        const blogPage = shallow(<Blog />)
+        const contentPage = shallow(<Content />)
     })
 });

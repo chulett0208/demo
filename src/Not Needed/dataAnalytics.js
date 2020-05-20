@@ -1,5 +1,5 @@
-import React from 'react';
-import ColorButton from './ColorButton';
+/*import React from 'react';
+import ColorButton from '../components/ColorButton';
 import NavBar from '../navBar';
 
 function dataAnalytics() {
@@ -13,4 +13,4 @@ function dataAnalytics() {
   );
 }
 
-export default dataAnalytics;
+export default dataAnalytics;*/

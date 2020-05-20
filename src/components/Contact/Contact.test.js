@@ -1,9 +1,9 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import Blog from './blog';
+import Contact from './contact';
 
-describe('Blog page', () => {
+describe('Contact page', () => {
     it('should render without crashing', () => {
-        const blogPage = shallow(<Blog />)
+        const contactPage = shallow(<Contact />)
     })
 });
