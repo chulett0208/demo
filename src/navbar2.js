@@ -12,29 +12,29 @@ function navbar2() {
 });
 return(
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+<nav className="navbar navbar-inverse navbar-fixed-top">
+  <div className="container">
+    <div className="navbar-header">
+      <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span className="icon-bar"></span>
+        <span className="icon-bar"></span>
+        <span className="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a className="navbar-brand" href="#">Brand</a>
     </div>
-    <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav pull-right">
+    <div className="collapse navbar-collapse">
+        <ul className="nav navbar-nav pull-right">
             <li>
-                <a href="/" class="nav-link">Home</a>
+                <a href="/" className="nav-link">Home</a>
             </li>
             <li>
-                <a href="portfolio" class="nav-link">PORTFOLIO</a>
+                <a href="portfolio" className="nav-link">PORTFOLIO</a>
             </li>
             <li>
-                <a href="services" class="nav-link">SERVICES&nbsp; <i class="fa fa-caret-down"></i></a>
+                <a href="services" className="nav-link">SERVICES&nbsp; <i class="fa fa-caret-down"></i></a>
             </li>
-            <li><a href="about" class="nav-link">ABOUT</a></li>
-            <li><a href="blog" class="nav-link">BLOG</a></li>
+            <li><a href="about" className="nav-link">ABOUT</a></li>
+            <li><a href="blog" className="nav-link">BLOG</a></li>
         </ul>
     </div>
   </div>

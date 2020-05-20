@@ -110,7 +110,9 @@ div.featurette:nth-of-type(odd) {
   border-radius: 6px;
   width: 210px;
 }
-
+.spacer {
+  margin-right: 60px;
+}
 .container2 {
   /*align-items: center;*/
   max-width: 80%;
