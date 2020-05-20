@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Home from './components/home';
-import Portfolio from "./components/portfolio";
+import Home from './components/Home/home';
+import Portfolio from "./components/Portfolio/portfolio";
 import About from "./components/About/about";
-import Types from "./components/types";
-import Services from "./components/services";
+import Types from "./Not Needed/types";
+import Services from "./components/Services/services";
 import Blog from "./components/Blog/blog";
-import Contact from "./components/contact";
+import Contact from "./components/Contact/contact";
 import { Route } from "react-router-dom";
 import './css/bootstrap.min.css';
 
