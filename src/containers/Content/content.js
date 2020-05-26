@@ -9,14 +9,17 @@ function content() {
             <br/>
 
             {/*  Home1  */}
-            <div className="container1">
+            <div className="container">
 
                     <div className="home1">
-                        <div className="row justify-content-md-space-between">
+                        <div className="row">
 
-                            <div className="col-xs-12 col-sm-12 col-md-4">
-                                <img className="img-circle" 
-                                src="https://bnlconsulting.com/images/intro/Data-Analytics-Icon.e044888c.png" alt="" />
+                            <div className="col-md-4">
+
+                                <div className="align-img">
+                                    <img className="img-circle" 
+                                    src="https://bnlconsulting.com/images/intro/Data-Analytics-Icon.e044888c.png" alt="" />
+                                </div>
 
                             <h3>Data Analytics</h3>
                             <p>
@@ -30,13 +33,18 @@ function content() {
                                 <button className="button-detail">
                                     Analytics Services &nbsp;
                                     <i className="fa fa-caret-right"></i>
-                                </button>   
+                                </button>
                             </p>
                         </div>
 
-                        <div className="col-xs-12 col-sm-12 col-md-4">
-                           <img className="img-circle" 
-                           src="https://bnlconsulting.com/images/intro/Data-Visualization-Icon.bdda0ef9.png" alt="" />
+
+                        <div className="col-md-4">
+                            
+                            <div className="align-img">
+                                <img className="img-circle" 
+                                src="https://bnlconsulting.com/images/intro/Data-Visualization-Icon.bdda0ef9.png" alt="" />
+                            </div>
+                           
                            <h3>Data Visualization</h3>
                            <p>
                                When is the last time you took a good look at your organization? Chances are, 
@@ -53,8 +61,12 @@ function content() {
                            </p>
                         </div>
 
-                        <div className="col-xs-12 col-sm-12 col-md-4">
-                            <img className="img-circle" src="https://bnlconsulting.com/images/intro/Enterprise-Integration-Icon.ef5f0a70.png" alt="" />
+                        <div className="col-md-4">
+                            <div className="align-img">
+                                <img className="img-circle" 
+                                src="https://bnlconsulting.com/images/intro/Enterprise-Integration-Icon.ef5f0a70.png" alt="" />
+                            </div>
+                            
                             <h3>Enterprise Integration</h3>
                             <p>
                                 Having all the information you need to run your organization is important. 
@@ -82,22 +94,20 @@ function content() {
             <br />
             <br />
             <br />
-            <br />
-            <br />
 
 
             {/* Home2  */}
             <div className="featurette">
-                <div className="container2">
+                <div className="container">
                     <div className="home2">
 
                         <div className="row">
                             
-                            <div className="col-xs-12 col-sm-12 col-md-3">
+                            <div className="col-xs-12 col-sm-12 col-md-3 align-img">
                                 <img className="img-rounded img-fluid" src="https://bnlconsulting.com/images/intro/Capitol-Icon.9fe0c40c.png" alt="Public Sector" />
                             </div>
                             {/*<div className="spacer" />*/}
-                            <div className="col-xs-12 col-sm-12 col-md-9 paragraph-fluid">
+                            <div className="col-xs-12 col-sm-12 col-md-9">
                                 <h3>Public Sector</h3>
                                 <p>
                                     BNL Consulting is proud to be one of the largest professional 
@@ -120,12 +130,12 @@ function content() {
 
 
             <div className="featurette">
-                <div className="container2">
+                <div className="container">
                     <div className="home2">
 
                         <div className="row">
 
-                            <div className="col-md-3 order-md-2">
+                            <div className="col-md-3 order-md-2 align-img">
                                 <img className="img-rounded img-fluid" src="https://bnlconsulting.com/images/intro/Pulse-Icon.6d11c744.png" alt="Health &amp; Medical" />
                             </div>
                             <div className="col-md-9 order-md-1">
@@ -150,12 +160,12 @@ function content() {
 
 
             <div className="featurette">
-                <div className="container2">
+                <div className="container">
                     <div className="home2">
 
                         <div className="row">   
 
-                            <div className="col-md-3">
+                            <div className="col-md-3 align-img">
                                 <img className="img-rounded img-fluid" src="https://bnlconsulting.com/images/intro/Play-Icon.9955321b.png" alt="Sports &amp; Entertainment" />
                             </div>
                             <div className="col-md-9 col-fluid">
