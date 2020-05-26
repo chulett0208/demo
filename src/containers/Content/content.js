@@ -2,6 +2,7 @@ import React from 'react';
 import '../../index.css';
 
 function content() {
+    //var hr = document.createElement('hr');
     return (
         <div>
             <br/>
@@ -83,7 +84,6 @@ function content() {
             <br />
             <br />
             <br />
-
 
 
             {/* Home2  */}

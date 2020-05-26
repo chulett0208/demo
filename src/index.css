@@ -133,11 +133,14 @@ nav a:hover {
 
 
 /* Smaller Screens */
-@media(max-width: 767px) {
+@media(max-width: 567px) {
   .home2 {
     margin-bottom: 10px;
   }
   .home2 .img-rounded {
     margin-bottom: 5px;
+  }
+  nav ul {
+    margin: auto;
   }
 }
