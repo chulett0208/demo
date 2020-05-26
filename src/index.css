@@ -13,10 +13,9 @@ div.featurette:nth-of-type(odd) {
   padding: 15px;
 }
 
+
+
 /* Nav */
-.navContainer {
-  
-}
 nav {
   background-color: #292929;
 }
@@ -133,7 +132,7 @@ nav a:hover {
 }
 
 
-
+/* Smaller Screens */
 @media(max-width: 767px) {
   .home2 {
     margin-bottom: 10px;
