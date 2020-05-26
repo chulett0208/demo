@@ -93,11 +93,11 @@ function content() {
 
                         <div className="row">
                             
-                            <div className="col-xs-12 col-sm-12 col-md-3 order-md-1">
-                                <img className="img-rounded" src="https://bnlconsulting.com/images/intro/Capitol-Icon.9fe0c40c.png" alt="Public Sector" />
+                            <div className="col-xs-12 col-sm-12 col-md-3">
+                                <img className="img-rounded img-fluid" src="https://bnlconsulting.com/images/intro/Capitol-Icon.9fe0c40c.png" alt="Public Sector" />
                             </div>
                             {/*<div className="spacer" />*/}
-                            <div className="col-xs-12 col-sm-12 col-md-9 order-md-2">
+                            <div className="col-xs-12 col-sm-12 col-md-9 paragraph-fluid">
                                 <h3>Public Sector</h3>
                                 <p>
                                     BNL Consulting is proud to be one of the largest professional 
@@ -113,7 +113,7 @@ function content() {
                             </div>
 
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
