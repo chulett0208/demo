@@ -8,7 +8,7 @@ import Services from "./containers/Services/services";
 import Blog from "./containers/Blog/blog";
 import Contact from "./containers/Contact/contact";
 import { Route } from "react-router-dom";
-import './css/bootstrap.min.css';
+//import './css/bootstrap.min.css';
 
 function App() {
   return (

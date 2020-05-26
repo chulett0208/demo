@@ -137,18 +137,7 @@ div.featurette:nth-of-type(odd) {
 
 
 @media(max-width: 992px) {
-  .col-md-4 {
-    width: 33.33333333333%;
-  }
-  .img-circle {
-    width: 90px;
-  }
   .home2 {
-    grid-template-columns: 1fr;
-  }
-  .home3 {
-    display: flex;
-    flex-direction: column-reverse;
     grid-template-columns: 1fr;
   }
   .home3 h3, .home3 p

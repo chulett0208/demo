@@ -2,7 +2,7 @@ import React from 'react';
 import '../../index.css';
 
 function content() {
-    return(
+    return (
         <div>
             <br/>
             <br/>
@@ -111,7 +111,9 @@ function content() {
                                     without the red tape.
                                 </p>    
                             </div>
+
                         </div>
+                        
                     </div>
                 </div>
             </div>
@@ -142,7 +144,6 @@ function content() {
 
                         </div>
 
-
                     </div>
                 </div>
             </div>
@@ -155,9 +156,9 @@ function content() {
                         <div className="row">   
 
                             <div className="col-md-3">
-                                <img className="img-rounded" src="https://bnlconsulting.com/images/intro/Play-Icon.9955321b.png" alt="Sports &amp; Entertainment" />
+                                <img className="img-rounded img-fluid" src="https://bnlconsulting.com/images/intro/Play-Icon.9955321b.png" alt="Sports &amp; Entertainment" />
                             </div>
-                            <div className="col-md-9">
+                            <div className="col-md-9 col-fluid">
                                 <h3>Sports &amp; Entertainment</h3>
                                 <p>
                                     It’s no secret that advanced analytics are taking the sports world 
@@ -173,10 +174,10 @@ function content() {
 
                         </div>
 
-
                     </div>
                 </div>
             </div>
+
 
         </div>
     );
