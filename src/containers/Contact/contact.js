@@ -7,6 +7,9 @@ function contact() {
     <div>
       <NavBar />
       <br />
+      <br/>
+      <br />
+      <br />
       <ColorButton />
       <br />
       <p>Contact</p>

@@ -1,9 +1,9 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import App from './app';
+import App from './App';
 
 describe('App page', () => {
     it('should render without crashing', () => {
-        const contentPage = shallow(<App />)
+        const AppPage = shallow(<App />)
     })
 });
