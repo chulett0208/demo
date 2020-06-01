@@ -29,7 +29,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --silent --coverage --watchAll=false"
+    "test": "react-scripts test --silent --coverage --watchAll=false",
+    "pretest": "npm run lint",
+    "lint": "eslint src/ --max-warnings=0"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -63,8 +65,6 @@
     "npm": ">=6.0"
   },
   "eslintConfig": {
-    "pretest": "npm run lint",
-    "lint": "eslint src/ --max-warnings=0",
     "extends": [
       "eslint:recommended",
       "plugin:react/recommended",
