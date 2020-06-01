@@ -4,6 +4,6 @@ import Content from './content';
 
 describe('Content page', () => {
     it('should render without crashing', () => {
-        const contentPage = shallow(<Content />)
+        shallow(<Content />)
     })
 });

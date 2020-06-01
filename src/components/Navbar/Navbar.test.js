@@ -4,6 +4,6 @@ import NavBar from './navBar';
 
 describe('Navbar page', () => {
     it('should render without crashing', () => {
-        const navBarPage = shallow(<NavBar />)
+        shallow(<NavBar />)
     })
 });

@@ -28,7 +28,7 @@ function navBar() {
                         </li>
                         
                         <li className="nav-item">
-                            <a href="services" className="nav-link">SERVICES&nbsp; <i class="fa fa-caret-down"></i></a>
+                            <a href="services" className="nav-link">SERVICES&nbsp; <i className="fa fa-caret-down"></i></a>
                         </li>
                         
                         <li className="nav-item">

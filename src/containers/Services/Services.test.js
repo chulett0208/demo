@@ -5,6 +5,6 @@ import Services from './services';
 
 describe('Services page', () => {
     it('should render without crashing', () => {
-        const servicesPage = shallow(<Services />)
+        shallow(<Services />)
     })
 });

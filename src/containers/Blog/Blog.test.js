@@ -4,6 +4,6 @@ import Blog from './blog';
 
 describe('Blog page', () => {
     it('should render without crashing', () => {
-        const blogPage = shallow(<Blog />)
+        shallow(<Blog />)
     })
 });

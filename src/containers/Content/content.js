@@ -23,7 +23,7 @@ function content() {
 
                             <h3>Data Analytics</h3>
                             <p>
-                                There are questions that need to be answered to unlock your data's value. 
+                                There are questions that need to be answered to unlock your data&apos;s value. 
                                 First, how do you gather high-quality data?  Then how do you organize it? 
                                 And most importantly, how do you use it to reach your goals?  We utilize 
                                 industry-leading tools like SAS and R to find precisely the right data that 
@@ -106,7 +106,7 @@ function content() {
                             <div className="col-xs-12 col-sm-12 col-md-3 align-img">
                                 <img className="img-rounded img-fluid" src="https://bnlconsulting.com/images/intro/Capitol-Icon.9fe0c40c.png" alt="Public Sector" />
                             </div>
-                            {/*<div className="spacer" />*/}
+                
                             <div className="col-xs-12 col-sm-12 col-md-9">
                                 <h3>Public Sector</h3>
                                 <p>
@@ -144,7 +144,7 @@ function content() {
                                     The landscape of the healthcare, medical, and pharmaceutical 
                                     industries is dramatically changing and doing so rapidly. Whether 
                                     you want to manage your costs by accurately identifying 
-                                    super-utilizers, ensure your organization’s accountability by 
+                                    super-utilizers, ensure your organization&apos;s accountability by 
                                     monitoring for both compliance and fraud, and empower your non-technical 
                                     staff to make smarter decisions by developing systems with intuitive 
                                     visualizations and highly-customizable workflows, our offerings can 
@@ -171,7 +171,7 @@ function content() {
                             <div className="col-md-9 col-fluid">
                                 <h3>Sports &amp; Entertainment</h3>
                                 <p>
-                                    It’s no secret that advanced analytics are taking the sports world 
+                                    It&apos;s no secret that advanced analytics are taking the sports world 
                                     by storm, but all aspects of the entertainment industry could benefit
                                     from the big data revolution. Whether you want to assemble a championship 
                                     team using a comprehensive analytics console with integrated roster and 

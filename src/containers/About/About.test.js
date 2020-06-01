@@ -5,6 +5,6 @@ import About from './about';
 
 describe('About page', () => {
     it('should render without crashing', () => {
-        const aboutPage = shallow(<About />)
+        shallow(<About />)
     })
 });
