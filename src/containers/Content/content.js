@@ -86,8 +86,6 @@ function content() {
                 </div>
             </div>
             
-                
-            
 
             <br />
             <br />
