@@ -11,7 +11,6 @@ function services() {
       <br />
       <ColorButton />
       <br />
-      <p>Services</p>
 
       <ServicesDetail title={"Better Inputs, Better Outputs"}>
           <p>
@@ -26,6 +25,36 @@ function services() {
               and more efficiently.
           </p>
           <img src="https://bnlconsulting.com/images/data-analytics/Flu-Trends.bbb66650.png" alt="" />
+      </ServicesDetail>
+
+      <ServicesDetail title={"Descriptive and Predictive"}>
+          <p>
+              What if we told you that we can predict influenza 
+              outbreaks down to the ZIP Code? Or that we can accurately 
+              spotlight high-risk targets in real time for customs agents? 
+              At BNL Consulting, we understand that data can be used not 
+              only to describe what has already happened, but also to 
+              anticipate what is likely to happen. We develop advanced 
+              tools for our clients that allow them to seize control of 
+              their futures by turning insightful facts into reliable 
+              forecasts.
+          </p>
+          <img src="https://bnlconsulting.com/images/data-analytics/NCBP-Map.a1028f07.jpg" alt="" />
+      </ServicesDetail>
+
+      <ServicesDetail title={"Descriptive and Predictive"}>
+          <p>
+              What if we told you that we can predict influenza 
+              outbreaks down to the ZIP Code? Or that we can accurately 
+              spotlight high-risk targets in real time for customs agents? 
+              At BNL Consulting, we understand that data can be used not 
+              only to describe what has already happened, but also to 
+              anticipate what is likely to happen. We develop advanced 
+              tools for our clients that allow them to seize control of 
+              their futures by turning insightful facts into reliable 
+              forecasts.
+          </p>
+          <img src="https://bnlconsulting.com/images/data-analytics/NCBP-Map.a1028f07.jpg" alt="" />
       </ServicesDetail>
     </div>
   );

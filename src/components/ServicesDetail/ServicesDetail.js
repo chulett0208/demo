@@ -7,8 +7,7 @@ function ServicesDetail(props) {
 
         <div>
             <h4>{props.title}</h4>
-            <p>{props.children}</p>
-            <div>{props.image}</div>
+            <div>{props.children}</div>
         </div>
 
     );
