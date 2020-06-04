@@ -4,11 +4,11 @@ function ServicesDetail(props) {
     
     return(
 
+
         <div>
-            <p>{props.locationName}</p>
-            <p>{props.addressLine1}</p>
-            <p>{props.addressLine2}</p>
-            <p>Phone: {props.phone}</p>
+            <h4>{props.title}</h4>
+            <p>{props.children}</p>
+            <div>{props.image}</div>
         </div>
 
     );
